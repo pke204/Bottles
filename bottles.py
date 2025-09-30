@@ -1,6 +1,6 @@
 bottles = 10
 
-while bottles > 1:
+for bottles in range(10, 0, -1):
     print(bottles, "green bottles hanging on the wall,")
     print(bottles, "green bottles hanging on the wall,")
     print("and if one green bottle should accidentally fall,")
